@@ -1,28 +1,43 @@
 # Noctyra Core
 
-Noctyra Core é um assistente pessoal inteligente focado em automação, IA e controle do sistema operacional.
+Noctyra Core is a personal intelligent assistant focused on automation, AI, computer vision and system control for Linux and Windows.
 
-## Objetivos
-- Automação Linux e Windows
-- Comandos inteligentes
-- Controle por voz
-- Interface cyberpunk/gótica
-- Integração com hardware
-- IA local
+## Features
+- Cross-platform automation
+- Intelligent command system
+- Voice recognition
+- Computer vision and gesture recognition
+- Cyberpunk/Gothic interface
+- Local AI integration
+- Hardware integration
+- Memory system
 
-## Tecnologias
+## Technologies
 - Python
+- OpenCV
+- MediaPipe
 - Linux
 - Windows
 - Bash
 
 ## Status
-Em desenvolvimento inicial.
+Early development stage.
 
 ## Roadmap
-- [x] Estrutura inicial
-- [ ] Sistema de comandos
-- [ ] Automação do sistema
-- [ ] Reconhecimento de voz
-- [ ] Interface gráfica
-- [ ] IA integrada
+- [x] Initial structure
+- [ ] Command system
+- [ ] System automation
+- [ ] Linux/Windows abstraction layer
+- [ ] Voice recognition
+- [ ] Vision and gesture recognition
+- [ ] Graphical interface
+- [ ] Memory system
+- [ ] AI integration
+- [ ] Hardware integration
+
+## Future Goals
+- Gesture-based commands
+- Voice assistant
+- AI-powered automation
+- Smart desktop control
+- Hardware integration with ESP32/Arduino
