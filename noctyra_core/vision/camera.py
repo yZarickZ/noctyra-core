@@ -1,16 +1,11 @@
-import numpy as np
 import cv2 as cv
 
-camera = cv.VideoCapture(0)
+class Camera:
+    def __init__(self, index=0):
+        self.cap = cv.VideoCapture(index)
 
-while True:
+    def read(self):
+        return self.cap.read()
 
-    success, frame = camera.read()
-
-    cv.imshow("Camera", frame)
-
-    if cv.waitKey(1) == 27:
-        break
-
-camera.release()
-cv.destroyAllWindows()
+    def release(self):
+        self.cap.release()
